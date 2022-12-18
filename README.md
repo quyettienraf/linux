@@ -1,5 +1,5 @@
 # linux
-##1. Thay đổi kích thước Swap Space trên ubuntu
+## 1. Thay đổi kích thước Swap Space trên ubuntu
 - Swap hay còn được gọi là RAM ảo được sử dụng để hỗ trợ lưu trữ dữ liệu khi bộ nhớ vật lý (RAM) đã đầy. Vậy nếu bạn đã có swapfile rồi nhưng dung lượng nó nhỏ quá. Thế là bạn muốn thay đổi thì hãy làm theo các bước sau nhé.
 
 - Dùng lần lượt 6 lệnh sau:
