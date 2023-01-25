@@ -21,3 +21,5 @@ sudo echo ‘/swapfile none swap sw 0 0’ | sudo tee -a /etc/fstab
 Để kiểm tra Swapfile có được kích hoạt chưa hãy dùng lệnh sau: free -h
 
 Hy vọng hữu ích với bạn!
+## 2. Xem 1 lệnh lặp theo thời gian
+watch -n 2 nvidia-smi
