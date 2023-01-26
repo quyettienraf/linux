@@ -11,3 +11,10 @@ sudo apt install nvidia-cuda-toolkit
 ```bash
 export PATH=/usr/local/cuda-10.0/bin:$PATH export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64:$LD_LIBRARY_PATH
 ```
+- step 3: verify
+- download Cuda Sample: https://github.com/NVIDIA/cuda-samples
+```bash
+$ cd <sample_dir>
+$ make
+$ ./bandwidthTest 
+```
